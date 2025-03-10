@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер зворотного відліку</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        timer {
+            font-size: 2em;
+            margin: 20px;
+        }
+        button {
+            margin: 5px;
+            padding: 10px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Таймер зворотного відліку</h1>
+    
+    <input type="number" id="timeInput" placeholder="Введіть час (сек)" min="1">
+    <button id="startButton">Старт</button>
+    <button id="pauseButton">Пауза</button>
+    <button id="increaseButton">+5 сек</button>
+    <button id="decreaseButton">-5 сек</button>
+
+    <div id="timer">00:00</div>
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
